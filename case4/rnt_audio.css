@@ -6,12 +6,23 @@
    Case Problem 4
 
    Roads Not Taken Audio Styles
-   Author: 
-   Date:   
+   Author: Clint Crockett
+   Date:   Dec 16
 
    Filename: rnt_audio.css
 
 */
 
 /* Audio Styles */
-
+audio{
+   display: block;
+   box-shadow: darkgray 8px 8px 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+audio::-webkit-media-controls-panel{
+   background-color: rgb(128,128,255);
+}
